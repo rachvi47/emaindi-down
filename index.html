@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#071d55">
+<meta name="description" content="Download emaindi, the chat app by Tohnna.">
+<title>emaindi — Chat by Tohnna</title>
+<style>
+:root{--navy:#071d55;--blue:#1768f5;--cyan:#12b9ec;--gold:#ffbf18;--text:#14213d;--muted:#64748b}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--text);background:#fff}
+.wrap{width:min(1080px,calc(100% - 40px));margin:auto}
+header{height:78px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:11px;font-size:22px;font-weight:850;letter-spacing:-.7px;color:var(--navy)}
+.brand img{width:43px;height:43px;object-fit:cover;border-radius:13px}
+nav{display:flex;gap:26px;color:#51617c;font-size:14px;font-weight:600}nav a{text-decoration:none;color:inherit}
+.hero{background:radial-gradient(circle at 76% 38%,#174b9c 0,#0b2b6d 33%,#071d55 72%);color:white;overflow:hidden}
+.hero-grid{min-height:600px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:35px;padding:60px 0}
+.kicker{display:inline-block;padding:8px 13px;border:1px solid #ffffff45;border-radius:99px;background:#ffffff12;color:#d9eaff;font-size:13px;font-weight:700}
+h1{font-size:clamp(44px,6vw,70px);line-height:1.02;letter-spacing:-3px;margin:22px 0 18px}
+.lead{font-size:18px;line-height:1.7;color:#d9e5ff;max-width:540px}
+.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 21px;border-radius:13px;font-weight:800;text-decoration:none}
+.primary{background:linear-gradient(110deg,var(--cyan),var(--blue));color:#fff;box-shadow:0 12px 30px #008cff40}
+.secondary{border:1px solid #ffffff65;color:#fff;background:#ffffff0c}
+.note{font-size:12px;color:#b8c9e9;margin-top:14px;line-height:1.5}
+.logo-stage{display:grid;place-items:center;position:relative}
+.logo-stage:before{content:"";position:absolute;width:min(390px,80vw);aspect-ratio:1;border-radius:50%;background:#ffffff0b;border:1px solid #ffffff20}
+.logo-stage img{position:relative;width:min(360px,78vw);aspect-ratio:1;object-fit:cover;border-radius:35px;box-shadow:0 25px 70px #0007}
+section{padding:76px 0}.title{text-align:center;font-size:34px;letter-spacing:-1.2px;margin:0 0 12px}.sub{text-align:center;color:var(--muted);line-height:1.7;max-width:660px;margin:0 auto 38px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:25px;border:1px solid #e6ebf3;border-radius:19px;background:#fff}
+.symbol{width:45px;height:45px;display:grid;place-items:center;border-radius:14px;background:#eef4ff;color:#1768f5;font-size:22px}
+.card h3{margin:16px 0 8px}.card p{margin:0;color:var(--muted);font-size:14px;line-height:1.65}
+.dl-panel{background:#f2f6ff;border:1px solid #e0eaff;border-radius:26px;padding:45px 24px;text-align:center}
+.dl-panel p{color:var(--muted);line-height:1.7;max-width:600px;margin:12px auto 22px}
+.dl-panel .primary{min-width:230px}
+footer{padding:25px 0;border-top:1px solid #e8edf4;color:#738198;font-size:13px}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){nav{display:none}.hero-grid{grid-template-columns:1fr;text-align:center;padding:55px 0}.lead{margin:auto}.actions{justify-content:center}.logo-stage{margin:12px 0 5px}.logo-stage img{width:min(285px,75vw)}section{padding:58px 0}.cards{grid-template-columns:1fr}.title{font-size:29px}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <a class="brand" href="#"><img src="emaindi-logo.jpeg" alt="emaindi logo"><span>emaindi</span></a>
+  <nav><a href="#about">About</a><a href="#features">Highlights</a><a href="#download">Download</a></nav>
+</header>
+<main>
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker">A chat app by Tohnna</span>
+        <h1>Say hello.<br>Stay connected.</h1>
+        <p class="lead">Meet emaindi, a chat app from Tohnna. Get the Android app and keep your conversations close.</p>
+        <div class="actions">
+          <a class="btn primary" href="emaindi.apk" download>↓ Download emaindi APK</a>
+          <a class="btn secondary" href="#about">Discover emaindi</a>
+        </div>
+        <p class="note">Android application · APK download<br>Check the app permissions and install only if you trust this publisher.</p>
+      </div>
+      <div class="logo-stage"><img src="emaindi-logo.jpeg" alt="emaindi chat logo"></div>
+    </div>
+  </div>
+  <section id="about">
+    <div class="wrap">
+      <h2 class="title">Chat starts with emaindi</h2>
+      <p class="sub">emaindi is a chat application by Tohnna. Download the Android package directly from this page.</p>
+      <div class="cards" id="features">
+        <article class="card"><div class="symbol">💬</div><h3>Made for chatting</h3><p>A dedicated chat-app identity with a bright, friendly conversation logo.</p></article>
+        <article class="card"><div class="symbol">📲</div><h3>Android download</h3><p>Get the emaindi APK from this website and install it on a compatible Android device.</p></article>
+        <article class="card"><div class="symbol">✨</div><h3>By Tohnna</h3><p>emaindi — your chat app from Tohnna.</p></article>
+      </div>
+    </div>
+  </section>
+  <section id="download">
+    <div class="wrap">
+      <div class="dl-panel">
+        <h2 class="title">Download emaindi</h2>
+        <p>Ready to try emaindi? Download the Android APK using the button below.</p>
+        <a class="btn primary" href="emaindi.apk" download>↓ Download APK</a>
+        <p class="note">If Android asks, allow installation from this source only if you trust the file and its publisher.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> emaindi · By Tohnna</span><span>Android APK download</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
